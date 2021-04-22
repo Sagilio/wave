@@ -1,0 +1,93 @@
+module wave
+
+go 1.16
+
+require (
+	bou.ke/monkey v1.0.2-0.20190117143650-3347223c1ec5
+	github.com/AndreasBriese/bbloom v0.0.0-20190306092124-e2d15f34fcf9
+	github.com/BurntSushi/toml v0.3.1
+	github.com/aristanetworks/goarista v0.0.0-20190325233358-a123909ec740
+	github.com/btcsuite/btcd v0.0.0-20190315201642-aa6e0f35703c
+	github.com/campoy/embedmd v1.0.0 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
+	github.com/davecgh/go-spew v1.1.1
+	github.com/dgraph-io/badger v1.5.5-0.20190226225317-8115aed38f8f
+	github.com/dgryski/go-farm v0.0.0-20190323231341-8198c7b169ec
+	github.com/dlespiau/covertool v0.0.0-20180314162135-b0c4c6d0583a // indirect
+	github.com/edsrzf/mmap-go v1.0.0
+	github.com/ethereum/go-ethereum v1.7.3
+	github.com/fatih/color v1.7.0
+	github.com/gizak/termui v2.3.0+incompatible
+	github.com/go-sql-driver/mysql v1.4.1
+	github.com/go-stack/stack v1.8.0
+	github.com/go-test/deep v1.0.1
+	github.com/gogo/protobuf v1.2.1
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/mock v1.2.0
+	github.com/golang/protobuf v1.3.1
+	github.com/golang/snappy v0.0.1
+	github.com/google/certificate-transparency-go v1.0.21
+	github.com/google/trillian v1.2.1
+	github.com/google/uuid v1.1.1
+	github.com/gorilla/context v1.1.1
+	github.com/gorilla/mux v1.7.0
+	github.com/gorilla/pat v0.0.0-20180118221401-71e7b868be7b
+	github.com/grpc-ecosystem/grpc-gateway v1.8.5
+	github.com/gtfierro/go-ipfs-api v1.2.1
+	github.com/gxed/hashland v0.0.1
+	github.com/hashicorp/golang-lru v0.5.1
+	github.com/howeyc/gopass v0.0.0-20170109162249-bf9dde6d0d2c
+	github.com/huin/goupnp v1.0.0
+	github.com/immesys/asn1 v0.0.0-20180925212538-00c41edb4634
+	github.com/immesys/bw2bc v1.1.0
+	github.com/ipfs/go-ipfs-cmdkit v0.0.0-20171114173312-62752e2f8b27
+	github.com/jackpal/go-nat-pmp v1.0.1
+	github.com/karalabe/hid v0.0.0-20181128192157-d815e0c1a2e2
+	github.com/libp2p/go-libp2p-crypto v0.0.1
+	github.com/libp2p/go-libp2p-peer v0.1.0
+	github.com/libp2p/go-libp2p-pubsub v0.0.1
+	github.com/maruel/panicparse v1.1.2-0.20180806203336-f20d4c4d746f
+	github.com/mattn/go-colorable v0.1.1
+	github.com/mattn/go-isatty v0.0.7
+	github.com/mattn/go-runewidth v0.0.4
+	github.com/minio/blake2b-simd v0.0.0-20160723061019-3f5f724cb5b1
+	github.com/minio/sha256-simd v0.1.0
+	github.com/mitchellh/go-homedir v1.1.0
+	github.com/mitchellh/go-wordwrap v1.0.0
+	github.com/mmcloughlin/avo v0.2.0
+	github.com/mr-tron/base58 v1.1.1
+	github.com/multiformats/go-multiaddr v0.0.2
+	github.com/multiformats/go-multiaddr-dns v0.0.2
+	github.com/multiformats/go-multiaddr-net v0.0.1
+	github.com/multiformats/go-multihash v0.0.1
+	github.com/naoina/go-stringutil v0.1.0
+	github.com/naoina/toml v0.1.1
+	github.com/nsf/termbox-go v0.0.0-20190325093121-288510b9734e
+	github.com/pborman/uuid v0.0.0-20180906182336-adf5a7427709
+	github.com/peterh/liner v1.1.0
+	github.com/philhofer/fwd v1.0.0
+	github.com/pkg/errors v0.8.1
+	github.com/pmezard/go-difflib v1.0.0
+	github.com/prometheus/prometheus v2.1.0+incompatible
+	github.com/rcrowley/go-metrics v0.0.0-20181016184325-3113b8401b8a
+	github.com/rjeczalik/notify v0.9.2
+	github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d
+	github.com/rs/cors v1.6.0
+	github.com/russross/blackfriday/v2 v2.1.0 // indirect
+	github.com/samkumar/reqcache v0.0.0-20170216230359-664d78bf3ac1
+	github.com/stretchr/testify v1.3.0
+	github.com/syndtr/goleveldb v1.0.1-0.20190318030020-c3a204f8e965
+	github.com/tinylib/msgp v1.1.0
+	github.com/ucbrise/jedi-pairing v0.0.0-20190527004100-4c3d16d2a74f
+	github.com/ucbrise/jedi-protocol-go v0.0.0-20190808014508-5b11ad625ee5
+	github.com/urfave/cli v1.22.5
+	github.com/whyrusleeping/tar-utils v0.0.0-20180509141711-8c6c8ba81d5c
+	go.opencensus.io v0.20.0
+	gopkg.in/asn1-ber.v1 v1.0.0-20181015200546-f715ec2f112d
+	gopkg.in/fatih/set.v0 v0.2.1
+	gopkg.in/karalabe/cookiejar.v2 v2.0.0-20150724131613-8dcd6a7f4951
+	gopkg.in/ldap.v2 v2.5.1
+	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
+	gopkg.in/sourcemap.v1 v1.0.5
+	gopkg.in/urfave/cli.v1 v1.20.0
+)
